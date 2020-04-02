@@ -1,0 +1,5 @@
+D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp3.1\CoreCodeCamp.csprojAssemblyReference.cache
+D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp3.1\CoreCodeCamp.csproj.CoreCompileInputs.cache
+D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp3.1\CoreCodeCamp.MvcApplicationPartsAssemblyInfo.cache
+D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp3.1\CoreCodeCamp.AssemblyInfoInputs.cache
+D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp3.1\CoreCodeCamp.AssemblyInfo.cs

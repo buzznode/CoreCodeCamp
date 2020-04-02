@@ -17,6 +17,8 @@ namespace CoreCodeCamp.Controllers
     /// </summary>
     [Route("api/[controller]")]
     [ApiController]
+    [ApiVersion("1.0")]
+    [ApiVersion("1.1")]
     public class CampsController : ControllerBase
     {
         private readonly LinkGenerator _linkgen;
@@ -39,7 +41,7 @@ namespace CoreCodeCamp.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public async Task<ActionResult<CampModel[]>> Get(bool includeTalks = false)
+        public async Task<ActionResult<CampModel[]>> Get(bool includeTalks = true)
         {
             try
             {
@@ -54,11 +56,33 @@ namespace CoreCodeCamp.Controllers
         }
 
         [HttpGet("{moniker}")]
+        [MapToApiVersion("1.0")]
         public async Task<ActionResult<CampModel>> Get(string moniker)
         {
             try
             {
-                var result = await _repo.GetCampAsync(moniker);
+                var result = await _repo.GetCampAsync(moniker, false);
+
+                if (result == null)
+                {
+                    return NotFound();
+                }
+
+                return _mapper.Map<CampModel>(result);
+            }
+            catch (Exception e)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Database Failure");
+            }
+        }
+
+        [HttpGet("{moniker}")]
+        [MapToApiVersion("1.1")]
+        public async Task<ActionResult<CampModel>> Get11(string moniker)
+        {
+            try
+            {
+                var result = await _repo.GetCampAsync(moniker, true);
 
                 if (result == null)
                 {
@@ -74,7 +98,7 @@ namespace CoreCodeCamp.Controllers
         }
 
         [HttpGet("search")]
-        public async Task<ActionResult<CampModel[]>> SearchByDate(DateTime theDate, bool includeTalks = false)
+        public async Task<ActionResult<CampModel[]>> SearchByDate(DateTime theDate, bool includeTalks = true)
         {
             try
             {

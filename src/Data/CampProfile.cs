@@ -14,16 +14,17 @@ namespace CoreCodeCamp.Data
         {
             // Entities to Models
 
-            this.CreateMap<Camp, CampModel>()
-                .ForMember(c => c.Venue, o => o.MapFrom(m => m.Location.VenueName));
-            this.CreateMap<Talk, TalkModel>();
-            this.CreateMap<Speaker, SpeakerModel>();
+            CreateMap<Camp, CampModel>()
+                .ForMember(c => c.Venue, o => o.MapFrom(m => m.Location.VenueName))
+                .ReverseMap();
 
-            // Models to Entities
+            CreateMap<Talk, TalkModel>()
+                .ReverseMap()
+                .ForMember(t => t.Camp, opt => opt.Ignore())
+                .ForMember(t => t.Speaker, opt => opt.Ignore());
 
-            this.CreateMap<CampModel, Camp>();
-            this.CreateMap<TalkModel, Talk>();
-            this.CreateMap<SpeakerModel, Speaker>();
+            CreateMap<Speaker, SpeakerModel>()
+                .ReverseMap();
         }
     }
 }

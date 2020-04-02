@@ -5,6 +5,8 @@ D:\Development\dotnetcore\projects\CoreApiFundamentals\src\bin\Debug\netcoreapp2
 D:\Development\dotnetcore\projects\CoreApiFundamentals\src\bin\Debug\netcoreapp2.2\CoreCodeCamp.runtimeconfig.dev.json
 D:\Development\dotnetcore\projects\CoreApiFundamentals\src\bin\Debug\netcoreapp2.2\CoreCodeCamp.dll
 D:\Development\dotnetcore\projects\CoreApiFundamentals\src\bin\Debug\netcoreapp2.2\CoreCodeCamp.pdb
+D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.csprojAssemblyReference.cache
+D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.csproj.CoreCompileInputs.cache
 D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.RazorAssemblyInfo.cache
 D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.RazorAssemblyInfo.cs
 D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.AssemblyInfoInputs.cache
@@ -13,5 +15,3 @@ D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp2
 D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.dll
 D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.pdb
 D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.genruntimeconfig.cache
-D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.csprojAssemblyReference.cache
-D:\Development\dotnetcore\projects\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.csproj.CoreCompileInputs.cache

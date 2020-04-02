@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "seP5DRfdSP5kBV2/f1kh2wfOQVbqiuddmEn3CyEP7ryveMncs46mEKXr605l/qU9m87DOr63q3cCZY43N3UmcQ==",
+  "dgSpecHash": "gulEU+9HNKcHYuSamYqsDJKXVo6bUM9/Rr41M1qDf/5nFzXcZM/U99iugSbZsTjq6ARH0S/7pNu877RWrK4yAg==",
   "success": true,
   "projectFilePath": "D:\\Development\\dotnetcore\\projects\\CoreApiFundamentals\\src\\CoreCodeCamp.csproj",
   "expectedPackageFiles": [
@@ -71,6 +71,7 @@
     "C:\\Users\\bradd\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.viewcompilation\\2.2.0\\microsoft.aspnetcore.mvc.razor.viewcompilation.2.2.0.nupkg.sha512",
     "C:\\Users\\bradd\\.nuget\\packages\\microsoft.aspnetcore.mvc.razorpages\\2.2.0\\microsoft.aspnetcore.mvc.razorpages.2.2.0.nupkg.sha512",
     "C:\\Users\\bradd\\.nuget\\packages\\microsoft.aspnetcore.mvc.taghelpers\\2.2.0\\microsoft.aspnetcore.mvc.taghelpers.2.2.0.nupkg.sha512",
+    "C:\\Users\\bradd\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.0.0\\microsoft.aspnetcore.mvc.versioning.4.0.0.nupkg.sha512",
     "C:\\Users\\bradd\\.nuget\\packages\\microsoft.aspnetcore.mvc.viewfeatures\\2.2.0\\microsoft.aspnetcore.mvc.viewfeatures.2.2.0.nupkg.sha512",
     "C:\\Users\\bradd\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\2.2.0\\microsoft.aspnetcore.nodeservices.2.2.0.nupkg.sha512",
     "C:\\Users\\bradd\\.nuget\\packages\\microsoft.aspnetcore.owin\\2.2.0\\microsoft.aspnetcore.owin.2.2.0.nupkg.sha512",
